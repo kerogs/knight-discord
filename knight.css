@@ -47,7 +47,7 @@
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
 	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
-	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--knight-spin-transition: 0.4s ease; /* knight icon spin */
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
@@ -58,12 +58,12 @@
 	--roundness-xs: 10px; /* channels, buttons */
 	--roundness-xxs: 8px; /* searchbar, small elements */
 
-	/* direct messages moon icon */
+	/* direct messages knight icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
-	--moon-icon-size: auto;
+	--knight-icon: block; /* knight icon */
+	--knight-icon-url: url('https://kerogs.github.io/knight-discord/icon.svg'); /* custom icon url */
+	--knight-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
@@ -82,7 +82,7 @@
 :root.reduce-motion {
 	--list-item-transition: none;
 	--unread-bar-transition: none;
-	--moon-spin-transition: none;
+	--knight-spin-transition: none;
 	--icon-spin-transition: none;
 }
 
@@ -679,24 +679,24 @@ button.button__581d0 /* small buttons */,
 	background-color: var(--idle-indicator) !important;
 }
 
-/* custom dm button moon icon */
+/* custom dm button knight icon */
 .childWrapper_a6ce15 > svg:not(.favoriteIcon__901fa) {
 	display: var(--discord-icon);
 }
 .childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa))::before {
 	content: '';
-	display: var(--moon-icon);
+	display: var(--knight-icon);
 	position: absolute;
 	width: 65%;
 	height: 65%;
 	background: var(--text-4);
-	-webkit-mask-image: var(--moon-icon-url);
-	-webkit-mask-size: var(--moon-icon-size);
+	-webkit-mask-image: var(--knight-icon-url);
+	-webkit-mask-size: var(--knight-icon-size);
 	-webkit-mask-repeat: none;
 }
 .wrapper__8436d:hover .childWrapper_a6ce15::before {
 	/* prettier-ignore */
-	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transition: background-color 0.15s ease-out, transform var(--knight-spin-transition);
 	transform: rotate(0deg) scale(1);
 }
 .wrapper__8436d:hover > .childWrapper_a6ce15::before,
