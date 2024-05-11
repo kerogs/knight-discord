@@ -10,9 +10,9 @@
 
 	/* color of status indicators and window controls */
 	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+    --dnd: hsl(300, 70%, 42%); /* Do Not Disturb */
+    --idle: hsl(270, 70%, 42%); /* Idle */
+    --streaming: hsl(240, 70%, 42%); /* Streaming */
 
 	/* accent colors */
 	--accent-1: hsl(190, 70%, 60%); /* links */
