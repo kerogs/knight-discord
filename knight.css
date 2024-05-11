@@ -670,13 +670,13 @@ button.button__581d0 /* small buttons */,
 	transform: scale(0.9);
 }
 [class^='winButtonClose']::after {
-	background-color: var(--dnd-indicator) !important;
+	background-color: red !important;
 }
 [class^='winButtonMinMax']:nth-child(3)::after {
-	background-color: var(--online-indicator) !important;
+	background-color: orange;
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
-	background-color: var(--idle-indicator) !important;
+	background-color: hsl(194, 96%, 42%); !important;
 }
 
 /* custom dm button knight icon */
