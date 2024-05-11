@@ -767,11 +767,13 @@ button.button__581d0 /* small buttons */,
 }
 .wrapper__612a5:hover .link_ddbb36,
 .side_b4b3f6 .item__48dda:hover {
-	margin: 0 5px;
+	margin-left: 5px;
+    margin-right: 5px;
 }
 .container_a48b21:hover,
 .channel__0aef5:hover {
-	margin: 0 18px;
+	margin-left: 5px;
+    margin-right: 5px;
 }
 
 /* spin hover animations */
