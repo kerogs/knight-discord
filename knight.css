@@ -676,7 +676,7 @@ button.button__581d0 /* small buttons */,
 	background-color: orange;
 }
 [class^='winButtonMinMax']:nth-child(4)::after {
-	background-color: hsl(194, 96%, 42%); !important;
+	background-color: hsl(194, 96%, 42%) !important;
 }
 
 /* custom dm button knight icon */
