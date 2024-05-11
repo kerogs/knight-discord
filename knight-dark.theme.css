@@ -2,7 +2,7 @@
  * @name knight-dark
  * @description A round, soothing discord theme that's comfortable to use
  * @author kerogs
- * @version 1.0.2
+ * @version 1.1.3
  * @invite 2HGYSAjsWy
  * @website https://github.com/kerogs/knight-discord
  * @source https://github.com/kerogs/knight-discord
@@ -10,7 +10,8 @@
  * @authorLink https://knight.ks-infinite.fr/
 */
 
-@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+/* @import url('https://refact0r.github.io/midnight-discord/midnight.css'); */
+@import url('https://kerogs.github.io/knight-discord/knight.css');
 
 /* customize things here */
 :root {
@@ -21,39 +22,41 @@
 	--corner-text: 'Knight';
 
 	/* color of status indicators and window controls */
-	--online-indicator: var(--accent-2); /* change to #23a55a for default green */
-	--dnd-indicator: hsl(340, 60%, 60%); /* change to #f13f43 for default red */
-	--idle-indicator: hsl(50, 60%, 60%); /* change to #f0b232 for default yellow */
-	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+	--online-indicator: hsl(293, 96%, 52%); /* change to #23a55a for default green */
+  --dnd-indicator: hsl(327, 96%, 42%); /* Do Not Disturb */
+  --idle-indicator: hsl(49, 96%, 56%); /* Idle */
+  --streaming-indicator: hsl(194, 96%, 42%); /* Streaming */
+  
 
 	/* accent colors */
-	--accent-1: hsl(190, 70%, 60%); /* links */
-	--accent-2: hsl(190, 70%, 48%); /* general unread/mention elements */
-	--accent-3: hsl(190, 70%, 42%); /* accent buttons */
-	--accent-4: hsl(190, 70%, 36%); /* accent buttons when hovered */
-	--accent-5: hsl(190, 70%, 30%); /* accent buttons when clicked */
-	--mention: hsla(190, 80%, 52%, 0.1); /* mentions & mention messages */
-	--mention-hover: hsla(190, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+  --accent-1: hsl(270, 70%, 60%); /* links */
+  --accent-2: hsl(270, 70%, 48%); /* general unread/mention elements */
+  --accent-3: hsl(270, 70%, 42%); /* accent buttons */
+  --accent-4: hsl(270, 70%, 36%); /* accent buttons when hovered */
+  --accent-5: hsl(270, 70%, 30%); /* accent buttons when clicked */
+  --mention: hsla(270, 80%, 52%, 0.1); /* mentions & mention messages */
+  --mention-hover: hsla(270, 80%, 52%, 0.05); /* mentions & mention messages when hovered */
+  
 
 	/* text colors */
 	--text-0: white; /* text on colored elements */
 	--text-1: var(--text-2); /* other normally white text */
-	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(220, 15%, 60%); /* normal text */
-	--text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
-	--text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
+	--text-2: hsl(220, 25%, 70%);; /* headings and important text */
+	--text-3: hsl(220, 15%, 60%);; /* normal text */
+	--text-4: hsl(220, 15%, 40%);; /* icon buttons and channels */
+	--text-5: hsl(220, 15%, 25%);; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
+  --bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
 	--bg-2: hsl(220, 15%, 16%); /* dark buttons */
 	--bg-3: hsl(220, 15%, 13%); /* spacing, secondary elements */
 	--bg-4: hsl(220, 15%, 10%); /* main background color */
 	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(220, 20%, 40%, 0.2); /* channels and buttons when clicked or selected */
-	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+	--message-hover: hsla(270, 0%, 0%, 0.1); /* messages when hovered */
 
 	/* amount of spacing and padding */
-	--spacing: 12px;
+	--spacing: .75vw;
 
 	/* animations */
 	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
@@ -63,18 +66,18 @@
 	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
 
 	/* corner roundness (border-radius) */
-	--roundness-xl: 22px; /* roundness of big panel outer corners */
-	--roundness-l: 20px; /* popout panels */
-	--roundness-m: 16px; /* smaller panels, images, embeds */
-	--roundness-s: 12px; /* members, settings inputs */
-	--roundness-xs: 10px; /* channels, buttons */
-	--roundness-xxs: 8px; /* searchbar, small elements */
+	--roundness-xl: .75rem; /* roundness of big panel outer corners */
+	--roundness-l: .75rem; /* popout panels */
+	--roundness-m: .75rem; /* smaller panels, images, embeds */
+	--roundness-s: 5px; /* members, settings inputs */
+	--roundness-xs: 6px; /* channels, buttons */
+	--roundness-xxs: .75rem; /* searchbar, small elements */
 
 	/* direct messages knight icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--knight-icon: block; /* knight icon */
-	--knight-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_knight.svg'); /* custom icon url */
+  --knight-icon-url: url('https://kerogs.github.io/knight-discord/icon.svg'); /* custom icon url */
 	--knight-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
