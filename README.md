@@ -19,16 +19,16 @@
     1. Go on your profile settings
     <img alt="tutoIMG" src=".ksinf/dlstep1ps.png" height="380px">
     
-    1. Scroll down the left-hand bar until you find "Themes" and click on it.
+    2. Scroll down the left-hand bar until you find "Themes" and click on it.
     <img alt="tutoIMG" src=".ksinf/dlstep2ps.png" height="380px">
     
-    1. Click on the folder icon to open the themes folder.
+    3. Click on the folder icon to open the themes folder.
     <img alt="tutoIMG" src=".ksinf/dlstep3ps.png" height="380px">
     
-    1. Add theme file (always ends with ``.theme.css``)
+    4. Add theme file (always ends with ``.theme.css``)
     <img alt="tutoIMG" src=".ksinf/dlstep4ps.png" height="380px">
     
-    1. then simply activate the desired theme on discord. in the same place as step 3
+    5. then simply activate the desired theme on discord. in the same place as step 3
     <img alt="tutoIMG" src=".ksinf/dlstep5ps.png" height="380px">
 
 This theme is inspired from [midnight theme](https://github.com/refact0r/midnight-discord)
