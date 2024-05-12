@@ -1161,3 +1161,34 @@ html.theme-light,
 	scrollbar-color: unset !important;
 	scrollbar-width: unset !important;
 }
+
+.wrapper__3c6d5{
+	border: 2px solid var(--bg-2);
+}
+
+.wrapper__3c6d5 .section__253ec{
+	background-color: var(--bg-2);
+}
+
+.wrapper__3c6d5:hover .section__253ec{
+	background-color: var(--bg-3);
+}
+
+.wrapper__8436d .childWrapper_a6ce15{
+	transition: .4s;
+}
+
+.wrapper__8436d:hover .childWrapper_a6ce15::before {
+	/* prettier-ignore */
+	transform: rotate(0deg) scale(1);
+}
+.wrapper__8436d:hover > .childWrapper_a6ce15::before,
+.wrapper__8436d.selected_ae80f7 > .childWrapper_a6ce15::before {
+	background: var(--text-0);
+	transform: rotate(0deg) scale(1);
+}
+
+.childWrapper_a6ce15{
+	color:#fff !important;
+	fill: #fff;
+}
