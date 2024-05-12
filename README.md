@@ -6,3 +6,6 @@
 </div>
 
 A round, soothing discord theme that's comfortable to use
+![alt text](.ksinf/preview.png)
+
+This theme is inspired from [midnight theme](https://github.com/refact0r/midnight-discord)
